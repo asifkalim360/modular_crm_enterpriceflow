@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: crm-app
+
+  # DATABASE CONFIG
+  datasource:
+    url: jdbc:mysql://localhost:3306/modular_crm_db
+    username: root
+    password: asif
+  # JPA CONFIG
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
+
+# SERVER PORT
+server:
+  port: 8080
+
+# SWAGGER
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html

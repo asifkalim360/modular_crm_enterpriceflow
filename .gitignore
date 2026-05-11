@@ -1,0 +1,80 @@
+# =========================
+# IntelliJ IDEA files
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+target/
+
+# =========================
+# Maven / Gradle build files
+# =========================
+target/
+build/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+log/
+
+# =========================
+# Spring Boot files
+# =========================
+application.properties.backup
+application.yml.backup
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Java class files
+# =========================
+*.class
+
+# =========================
+# Package files
+# =========================
+*.jar
+*.war
+*.ear
+
+# =========================
+# Environment files (VERY IMPORTANT)
+# =========================
+.env
+
+# =========================
+# Spring Boot local config (optional sensitive)
+# =========================
+application-local.properties
+application-local.yml
+
+# =========================
+# IDE cache
+# =========================
+*.log.*
+.idea_modules/
+
+# =========================
+# Lombok / generated files (if any)
+# =========================
+*.hprof
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Test output
+# =========================
+/test-output/
