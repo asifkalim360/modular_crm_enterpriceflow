@@ -11,3 +11,5 @@ public interface UserRepository extends JpaRepository<User, Long> {
 
     boolean existsByEmail(String email);
 }
+
+// “Optional NullPointerException avoid karta hai aur explicitly batata hai ki data present bhi ho sakta hai aur absent bhi.”

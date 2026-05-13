@@ -16,3 +16,6 @@ public class SecurityBeansConfig {      // Spring configuration class hai.
 }
 // Ye bahut important security concept hai.
 // Ye code humlog isliye banate hain taki Spring application me password ko securely encrypt/hash kar sake.
+
+// PASSWORD ENCODER?
+// Interview: “Passwords plain text me database me store nahi karne chahiye. BCrypt one-way hashing provide karta hai.”

@@ -33,6 +33,7 @@ public class AuthServiceImpl implements AuthService {
                 .email(request.getEmail())
                 // ENCODE PASSWORD
                 .password(passwordEncoder.encode(request.getPassword()))
+                .role(request.getRole())
                 .build();
 
         // Save user

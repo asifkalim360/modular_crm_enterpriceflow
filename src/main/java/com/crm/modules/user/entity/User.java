@@ -34,3 +34,6 @@ public class User {
     private Role role;
 
 }
+
+// @Enumerated(EnumType.STRING)?
+//“Database me ordinal values risky hoti hain because enum order change hone par data corrupt ho sakta hai. String safer hota hai.”
